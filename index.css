@@ -70,6 +70,7 @@ header {
     height: min-content;
     margin: 0;
     background-size: cover;
+    display: flex;
  }
 
 
