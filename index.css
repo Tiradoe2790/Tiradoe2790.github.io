@@ -111,7 +111,7 @@ div li {
 }
 
 
-section1, section2, section3, section4 {
+.section1, .section2, .section3, .section4 {
   Border: 2px solid grey;
  
 }
