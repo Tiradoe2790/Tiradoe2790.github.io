@@ -1,23 +1,38 @@
-* {
+header {
     font-family: Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    border: 3px solid whitesmoke;
+    
+
   }
   
   h1 {
+    position: fixed;
+    top: 0rem;
+    width: 100%;
     color: darkmagenta;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+    
+    
   }
   
   h3 {
-    color:black;
+    color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
+   }
   
-  p, 
-  li {
+  p {
     font-size: 18px;
-    position: relative;
-    text-align: left;
+    text-align: center;
     padding: 2rem 2rem;
+    font-family: sans-serif;
+    color:#FFF;
+    background-color:rgba(0, 0, 0, 0);
+   
   }
   
   
@@ -27,47 +42,55 @@
   .charselect {
     height: 1rem;
     padding: 1rem 5rem;
-    position: relative;
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
     text-align: center;
-
-  }
+    border: 3px solid #FFF;
+    border-radius: 1%;
+    
+   }
 
   .button {
-    border: 1px solid black;
-    background-color:blueviolet;
-    color: black; 
+    border: 3px solid black;
+    background-color:dimgray;
+    color:whitesmoke; 
     line-height: 1rem;
-    margin: 1rem auto;
-    text-align: center;
+    align-items: center;
+    padding: 0rem, 1 rem;
+
   }
-.article-title {
+.banner {
     border: 10px solid grey;
     position: relative;
+    top: 0rem;
     padding: 1rem;
-    background-color: black
-    
-}
+    background-image: url("C:\Users\xenog\OneDrive\Pictures\KINGDOM HEARTS III  1_31_2023 12_41_57 AM.png");
+ }
 
 
 .button:hover {
   background-color: #05A8AA;
   border: 2px solid #05A8AA;
   color: #FFF;
-  position: bottom;
+  position: relative;
+  top: 0rem;
   width: 2rem;
 
 }
 
 .content {
     display: inline-block;
-    padding-left: 5rem;
+    padding: 1rem, 0rem, 5rem, 1rem;
     position: relative
+    
     
 } 
 
-main li {
+main {
     Text-align: center;
     position: center;
+  
 
 }
 
@@ -80,14 +103,33 @@ main li {
 div li {
   margin: 0, auto;
   width:1 rem;
+  color:#FFF;
 }
 
-h2 {
-  display: inline-block;
-  position: relative
-}
 
 section1, section2, section3, section4 {
   Border: 2px solid grey;
-  z-index: 1;
+ 
+}
+
+.navlinks {
+  display: inline-block;
+  max-width: 100%;
+  border: 0px Solid black;
+}
+
+header {
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  top: 100%;
+  
+}
+
+html {
+  background-color:black;  
+}
+
+head {
+  line-height: 1.4;
 }
