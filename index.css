@@ -10,10 +10,9 @@ header {
   
   h1 {
     position: fixed;
-    top: 0rem;
-    width: 100%;
     color: darkmagenta;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
     
     
     
@@ -40,7 +39,7 @@ header {
     text-decoration: none;
   }
   .charselect {
-    height: 1rem;
+    height: 2rem;
     padding: 1rem 5rem;
     position: sticky;
     top: 0rem;
@@ -64,8 +63,13 @@ header {
     border: 10px solid grey;
     position: relative;
     top: 0rem;
-    padding: 1rem;
-    background-image: url("C:\Users\xenog\OneDrive\Pictures\KINGDOM HEARTS III  1_31_2023 12_41_57 AM.png");
+    bottom: 0rem;
+    padding: 12rem;
+    background: url("https://i.pinimg.com/originals/38/10/47/381047687e1da1d3a72ef196503e1529.jpg");
+    background-position:center;
+    height:min-content;
+    margin: 0;
+    background-size:cover;
  }
 
 
@@ -116,12 +120,14 @@ section1, section2, section3, section4 {
   display: inline-block;
   max-width: 100%;
   border: 0px Solid black;
+  padding: 1rem;
 }
 
 header {
   align-items: center;
   overflow: hidden;
   width: 100%;
+  height:fit-content;
   top: 100%;
   
 }
