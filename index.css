@@ -3,7 +3,13 @@ header {
   }
 
   body {
-    border: 3px solid whitesmoke;
+    border: 3px solid silver;
+    background: url("https://i.imgur.com/yMRvYGL.png");
+    background-position: center;
+    background-size:contain;
+    opacity: 1;
+    
+  }
     
 
   }
