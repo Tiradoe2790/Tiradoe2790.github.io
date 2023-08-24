@@ -11,14 +11,20 @@ header {
   }
   
   h1 {
-    position: fixed;
+    border: 1px solid black;
+    width:fit-content;
+    background-Image: url("https://i.pinimg.com/564x/68/bb/20/68bb2037a8e97ca7382412be38725a13.jpg");
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    left: 12rem;
     color: darkmagenta;
     font-family: 'Shadows Into Light', cursive;
     
   }
   
   h3 {
-    color: whitesmoke;
+    color: #9d09a5;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
    }
   
@@ -59,16 +65,16 @@ header {
   }
 .fit-width {
     border: 10px solid grey;
+    width:fit-content;
     position: relative;
     top: 0rem;
     bottom: 0rem;
-    padding: 0rem;
+    left: 10.5rem;
+    right: 0rem;
     /* background: url("https://i.pinimg.com/originals/38/10/47/381047687e1da1d3a72ef196503e1529.jpg"); */
     background-position:center;
     height:min-content;
-    margin: 0;
     background-size:cover;
-    display:flex;
     text-align:left;
  }
 
@@ -100,7 +106,8 @@ main {
 
  div h3 {
     Border: 2px solid black;
-    background-color:slategray;
+    background-image: url("https://i.pinimg.com/564x/8b/ed/6a/8bed6ad0a8ba0caf4790897d033c3c20.jpg");
+    background-position: center;
     
 }
 
