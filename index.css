@@ -70,23 +70,6 @@ a {
 
 }
 
-#fit-width {
-  border: 10px solid grey;
-  justify-content: space-around;
-  width: fit-content;
-  position: relative;
-  top: 0rem;
-  bottom: 0rem;
-  left: 10.5rem;
-  right: 0rem;
-  /* background: url("https://i.pinimg.com/originals/38/10/47/381047687e1da1d3a72ef196503e1529.jpg"); */
-  background-position: center;
-  height: min-content;
-  background-size: cover;
-  text-align: left;
-}
-
-
 .button:hover {
   background-color: #05A8AA;
   border: 2px solid #05A8AA;
@@ -204,4 +187,12 @@ button {
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
+}
+
+ .img {
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-items: start;
+  align-content: space-around;
+  flex-direction: column;
 }
