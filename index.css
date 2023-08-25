@@ -1,13 +1,16 @@
 header {
     font-family: Helvetica, Arial, sans-serif;
   }
-
+* {
+  box-sizing: border-box;
+}
   body {
     /* border: 3px solid silver; */
     background: url("https://i.imgur.com/yMRvYGL.png");
     background-position: center;
     background-size:contain;
     opacity: 1;
+    margin: 0;
   }
   
   h1 {
@@ -43,7 +46,6 @@ header {
     text-decoration: underline;
   }
   .character {
-    height: 2rem;
     padding: 1rem 5rem;
     position: sticky;
     top: 0rem;
@@ -155,4 +157,35 @@ html {
 
 head {
   line-height: 1.4;
+}
+
+.button2 {
+   display: center;
+  border: 1px solid whitesmoke;
+  width: 100%;
+  height:fit-content;
+  padding: 1rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.button2:hover {
+  background-color: #05A8AA;
+  border: 2px solid #05A8AA;
+  color: #FFF;
+  position: relative;
+  top: 0rem;
+  width: 100%;
+}
+
+
+footer .button2 {
+  border: 1.5px solid silver;
+  width: 100%;
+  
+}
+
+ul {
+  display: inline-block;
+  width: 100%;
 }
