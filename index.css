@@ -16,16 +16,16 @@ body {
 }
 
 h1 {
-  border: 1px solid black;
+    /* border: 1px solid black; */
   width: 100%;
-  background-Image: url("https://i.pinimg.com/564x/19/e2/66/19e2661c60f22059fa8898b6920b17c8.jpg");
+  /* background-Image: url("https://i.pinimg.com/564x/19/e2/66/19e2661c60f22059fa8898b6920b17c8.jpg"); */
   position: absolute;
   z-index: 1;
   color: darkmagenta;
   font-family: 'Shadows Into Light', cursive;
   overflow: hidden;
   margin: 0;
-  box-shadow: 1px 1px;
+  /* box-shadow: 1px 1px; */
 
 }
 
