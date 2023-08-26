@@ -17,14 +17,15 @@ body {
 
 h1 {
   border: 1px solid black;
-  width: fit-content;
-  background-Image: url("https://i.pinimg.com/564x/68/bb/20/68bb2037a8e97ca7382412be38725a13.jpg");
-  background-position: center;
+  width: 100%;
+  background-Image: url("https://i.pinimg.com/564x/19/e2/66/19e2661c60f22059fa8898b6920b17c8.jpg");
   position: absolute;
   z-index: 1;
-  left: 12rem;
   color: darkmagenta;
   font-family: 'Shadows Into Light', cursive;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 1px 1px;
 
 }
 
@@ -106,7 +107,7 @@ div h3 {
 .section2,
 .section3,
 .section4 {
-  Border: 2px solid black;
+  Border: 2px solid;
 
 
 }
@@ -190,7 +191,7 @@ button {
 }
 
  .img {
-  border: 1px solid whitesmoke;
+  border: 1px solid;
   display: flex;
   justify-items: start;
   align-content: space-around;
