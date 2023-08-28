@@ -15,9 +15,11 @@ body {
   margin: 0;
 }
 
-h1 {
-   border: 1px solid black;
+h1, .banner {
+  aspect-ratio: inherit;
+  border: 1px solid black;
   width: 100%;
+  height: 70px;
   background-Image: url("https://i.pinimg.com/564x/19/e2/66/19e2661c60f22059fa8898b6920b17c8.jpg");
   /* position: absolute; */
   z-index: 1;
@@ -26,7 +28,7 @@ h1 {
   overflow: hidden;
   margin: 0;
   box-shadow: 1px 1px;
-
+  
 }
 
 h3 {
@@ -45,11 +47,6 @@ p {
 }
 
 
-a {
-  text-decoration: underline;
-  text-decoration-color: rgb(15, 15, 15);
-}
-
 .character {
   padding: 1rem 5rem;
   position: sticky;
@@ -61,45 +58,43 @@ a {
 
 }
 
-.button1 {
+ .button1 {
   border: 3px solid black;
   background-color: dimgray;
   color: whitesmoke;
   line-height: 1rem;
   align-items: center;
-  padding: 0rem, 1 rem;
+  padding: 1rem, 1 rem;
+  text-decoration: none;
+  cursor: pointer;
 
 }
 
-.button:hover {
-  background-color: #05A8AA;
-  border: 2px solid #05A8AA;
+.button1:hover {
+  background-color: #851cc2;
+  border: 2px solid #851cc2;
   color: #FFF;
   position: relative;
-  top: 0rem;
-  width: 2rem;
+ }
 
+ .button1:active {
+  font-size: 10px;
+  transition: font-size .1s;
 }
 
 .content {
   display: inline-block;
-
-
-
 }
 
 main {
   Text-align: center;
   position: center;
-
-
 }
 
 div h3 {
   Border: 2px solid black;
   background-image: url("https://i.pinimg.com/564x/8b/ed/6a/8bed6ad0a8ba0caf4790897d033c3c20.jpg");
   background-position: center;
-
 }
 
 
@@ -108,8 +103,6 @@ div h3 {
 .section3,
 .section4 {
   Border: 2px solid;
-
-
 }
 
 .section2 p {
@@ -126,7 +119,6 @@ div h3 {
   display: inline-block;
   max-width: 100%;
   border: 0px Solid black;
-  padding: 1rem;
 }
 
 header {
@@ -135,7 +127,6 @@ header {
   width: 100%;
   height: fit-content;
   top: 100%;
-
 }
 
 html {
@@ -152,6 +143,12 @@ head {
   box-shadow: 0px 2px 2px #767676, 0px -2px 2px rgba(35, 35, 35, .9) inset, 0 2px 2px rgb(143 112 112 / 80%) inset;
   background: linear-gradient(rgb(15 16 16), #990ebc);
   text-shadow: 0 -2px #767676;
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #767676;
+  cursor: auto;
 }
 
 .button2:hover {
@@ -159,6 +156,7 @@ head {
   background: rgb(255, 255, 255);
   background: linear-gradient(#ffffff, rgb(15, 15, 15));
   border-color: #333;
+ 
 }
 
 .button2:active {
@@ -169,8 +167,7 @@ head {
   background: linear-gradient(#000000, #020e02);
 }
 
-
-.footer {
+footer {
   height: 508px;
   padding: 65px;
   border-bottom: 1px solid #466995;
@@ -180,14 +177,6 @@ head {
   flex-wrap: wrap;
   align-items: center;
   align-content: space-around;
-}
-
-button {
-  height: 50px;
-  width: 200px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 15px;
 }
 
  .img {
