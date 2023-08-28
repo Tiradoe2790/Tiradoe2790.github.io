@@ -177,6 +177,7 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   align-content: space-around;
+  margin: 0;
 }
 
  .img {
