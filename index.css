@@ -2,20 +2,20 @@ header {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-* {
+ * {
   box-sizing: border-box;
 }
 
-body {
+ body {
   /* border: 3px solid silver; */
+  aspect-ratio:inherit;
   background: url("https://i.imgur.com/yMRvYGL.png");
   background-position: center;
   background-size: contain;
   opacity: 1;
-  
 }
 
-h1, .banner {
+ h1, .banner {
   aspect-ratio: inherit;
   border: 1px solid black;
   width: 100%;
@@ -31,7 +31,7 @@ h1, .banner {
   
 }
 
-h3 {
+ h3 {
   color: #9d09a5;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -43,11 +43,10 @@ p {
   font-family: sans-serif;
   color: #FFF;
   background-color: rgba(0, 0, 0, 0);
-
 }
 
 
-.character {
+ .character {
   padding: 1rem 5rem;
   position: sticky;
   top: 0rem;
@@ -55,8 +54,79 @@ p {
   text-align: center;
   border: 3px solid #FFF;
   border-radius: 1%;
-
 }
+
+ .content {
+  display: inline-block;
+}
+
+ main {
+  Text-align: center;
+  position: center;
+}
+
+  h3 {
+  Border: 2px solid black;
+  background-image: url("https://i.pinimg.com/564x/8b/ed/6a/8bed6ad0a8ba0caf4790897d033c3c20.jpg");
+  background-position: center;
+  border-radius: 1px;
+}
+
+ .section1,
+ .section2,
+ .section3,
+ .section4 {
+  Border: 2px solid;
+}
+ .section2 p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+ .section4 p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+ .nav {
+  display: inline-block;
+  max-width: 100%;
+  border: 0px Solid black;
+}
+
+ header {
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: fit-content;
+  top: 100%;
+}  
+
+ html {
+  background-color: black;
+}
+
+ head {
+  line-height: 1.4;
+}
+
+ footer {
+  height: 508px;
+  padding: 65px;
+  border-bottom: 1px solid #466995;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  margin: 0;
+}
+
+ a {
+ text-decoration: none;
+ color:#ffffff;
+ }
 
  .button1 {
   border: 3px solid black;
@@ -67,10 +137,9 @@ p {
   padding: 1rem, 1 rem;
   text-decoration: none;
   cursor: pointer;
-
 }
 
-.button1:hover {
+ .button1:hover {
   background-color: #851cc2;
   border: 2px solid #851cc2;
   color: #FFF;
@@ -80,62 +149,7 @@ p {
  .button1:active {
   font-size: 10px;
   transition: font-size .1s;
-}
-
-.content {
-  display: inline-block;
-}
-
-main {
-  Text-align: center;
-  position: center;
-}
-
-div h3 {
-  Border: 2px solid black;
-  background-image: url("https://i.pinimg.com/564x/8b/ed/6a/8bed6ad0a8ba0caf4790897d033c3c20.jpg");
-  background-position: center;
-}
-
-
-.section1,
-.section2,
-.section3,
-.section4 {
-  Border: 2px solid;
-}
-
-.section2 p {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.section4 p {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.nav {
-  display: inline-block;
-  max-width: 100%;
-  border: 0px Solid black;
-}
-
-header {
-  align-items: center;
-  overflow: hidden;
-  width: 100%;
-  height: fit-content;
-  top: 100%;
-}
-
-html {
-  background-color: black;
-}
-
-head {
-  line-height: 1.4;
-}
+ }
 
 .button2 {
   border: 2px solid #333;
@@ -151,7 +165,8 @@ head {
   cursor: auto;
 }
 
-.button2:hover {
+
+ .button2:hover {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px #8c16c6 inset;
   background: rgb(255, 255, 255);
   background: linear-gradient(#ffffff, rgb(15, 15, 15));
@@ -159,25 +174,12 @@ head {
  
 }
 
-.button2:active {
+ .button2:active {
   margin-top: 2px;
   margin-bottom: -2px;
   box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
   background: #8392aa;
   background: linear-gradient(#000000, #020e02);
-}
-
-footer {
-  height: 508px;
-  padding: 65px;
-  border-bottom: 1px solid #466995;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: space-around;
-  margin: 0;
 }
 
  .img {
